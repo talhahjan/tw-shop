@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+body
+{
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Poppins', sans-serif;
+background-color: #eeeeee;
+
+}
+    
+
+ .wrapper{
+    @apply flex flex-col justify-between h-screen max-w-5xl text-left mx-auto ;
+  }
+
+.form-control {
+@apply w-full text-sm font-normal border border-orange-500 text-gray-700 leading-8 outline-none box-border transition-all duration-75 bg-clip-padding appearance-none
+}
+
+
+.form-control:focus,
+.form-select:focus
+{
+  @apply outline-none;
+  box-shadow: 0 0 8px 0 #ff5722;
+}
+
+
+
+
