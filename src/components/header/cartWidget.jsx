@@ -4,7 +4,7 @@ import {BiTrash} from 'react-icons/bi';
 
 const CartWidget = ({btnIcon}) => {
   return (
-    <div className="dropdown relative flex items-center">
+    <div className="dropdown relative flex items-center font-[Roboto]">
       <button
         className="dropdown-toggle text-xl hover:text-pink-500 focus:text-pink-500"
         type="button"
