@@ -11,7 +11,7 @@ const [showMenu, setShowMenu]=useState(false);
 
 
   return (
-<nav className="bg-transparent  h-12 w-full  leading-12 flex justify-between items-center font-[Courgette] p-4 relative">
+<nav className="bg-transparent h-12 w-full leading-12 flex justify-between items-center font-[Courgette,_cursive] p-4 relative">
 <div className={`absolute ${showSearch ? ' block': 'hidden'}  top-16 left-1/2 -translate-x-1/2 w-full max-w-sm flex-1 z-20`} id="searchBox">
 <SearchBox />
 </div>
